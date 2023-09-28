@@ -151,7 +151,7 @@
   width: 257px;
   height: 52px;
   margin-bottom: 50px;
-  border: 1px solid #FFF;
+  border: 1px solid currentColor;
   padding: 12px 32px;
   color: #FFF;
   font-family: Raleway, sans-serif;
@@ -216,9 +216,11 @@
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
-  line-height: 120%; /* 26.4px */
+  line-height: 119%;
   text-decoration-line: underline;
   text-transform: uppercase;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .card__text {
@@ -243,7 +245,6 @@
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
-
 
 .card-link {
   text-decoration: none;
@@ -317,13 +318,13 @@
   flex-direction: column;
   grid-column-start: 2;
   grid-row-start: 2;
-  gap: 25px;
+  gap: 28px;
   color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  line-height: normal;
+  line-height: 117%;
 }
 
 /* footer*/
