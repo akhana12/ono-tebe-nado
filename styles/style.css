@@ -27,9 +27,13 @@
   padding: 92px 50px;
 }
 
+.header__menu {
+  min-width: 390px;
+}
+
 .header__links-list {
   display: flex;
-  flex-flow: row nowrap;
+  flex-direction: row;
   align-content: center;
   gap: 10px 33px;
   list-style: circle;
